@@ -3,9 +3,14 @@ const fetchData = async () => {
   if (hasApiUrl) {
     const response = await fetch(`${hasApiUrl}/users`);
     const data = await response.json();
-    console.log(data);
   } else {
     window.location.href = "/api";
   }
 };
+
+const uploadFile = () => {
+  const inputTag = document.getElementById("inputFile");
+  console.log(inputTag);
+};
+uploadFile();
 fetchData();
