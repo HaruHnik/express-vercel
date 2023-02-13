@@ -1,0 +1,7 @@
+1. Created input tag with type=file
+2. Send json to express server
+3. Install body-parse middleware and use it to read req.body
+4. fs.createWriteStream —> file save
+5. req.headers
+6. Install uuid and its type file
+7. When client sends request to /uploadFile endpoint or route, console.log random string from uuid
